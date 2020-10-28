@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
     background-image: url(./Screenshot\ .png);
 }
@@ -9,7 +13,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
-    background-color: #fa672d;
+    background-color: #fff;
     border: 3px solid black;
     border-radius: 10px;
     box-shadow: 0 0 10px 2px;
@@ -18,6 +22,12 @@ body{
 
 h2{
     margin-left: 30px;
+    padding: 20px 0px;
+}
+
+.question-counter{
+    padding: 10px 0px;
+
 }
 
 .questions{
@@ -30,7 +40,7 @@ h2{
     margin-top: 10px;
     padding: 5px 0px;
     width: 150px;
-    background-color: blanchedalmond;
+    background-color: e2dcdc;
     border-radius: 10px;
     box-shadow: 0 0 10px 2px;
     transition: 0.3s;
@@ -42,7 +52,7 @@ h2{
     margin-left: 85%;
     top: 85%;
     padding: 5px 5px;
-    background-color: #56d856;
+    background-color: #5eddac;
     border-radius: 10px;
     box-shadow: 0 5px #999;
     cursor: pointer;
@@ -53,7 +63,7 @@ h2{
     margin-left: 80%;
     top: 85%;
     padding: 5px 5px;
-    background-color: #56d856;
+    background-color: #5eddac;
     border-radius: 10px;
     box-shadow: 0 5px #999;
     cursor: pointer;
@@ -64,14 +74,15 @@ h2{
     margin-left: 40%;
     top: 40%;
     padding: 15px 25px;
-    background-color: #56d856;
+    background-color: #5eddac;
     border-radius: 10px;
     box-shadow: 0 5px #999;
 
 }
-.t-scores{
+div .t-scores{
+    display: block;
     position: absolute;
-    margin-left: 30%;
+    margin-left: 26%;
     top: 40%;
     background-color: #f7a584;
     border-radius: 10px;
@@ -94,7 +105,7 @@ h2{
 }
 
 .next-button button:active{
-    background-color: #56d856;
+    background-color: #5eddac;
     box-shadow: 0 5px #fff;
     transform: translateY(4px);
 
@@ -113,7 +124,7 @@ h2{
         margin-left: auto;
         margin-right: auto;
         margin-top: 50px;
-        background-color: #fa672d;
+        background-color: #fff;
         border: 3px solid black;
         border-radius: 10px;
         box-shadow: 0 0 10px 2px;
@@ -123,6 +134,10 @@ h2{
     h2{
         margin-top: 40px;
         text-align: center;
+    }
+    .question-counter{
+        padding: 20px 0px;
+    
     }
 
     .questions{
@@ -135,7 +150,7 @@ h2{
         margin-top: 20px;
         padding: 10px 0px;
         width: 190px;
-        background-color: blanchedalmond;
+        background-color: #e2dcdc;
         border-radius: 10px;
         box-shadow: 0 0 10px 2px;
         cursor: pointer;
@@ -145,11 +160,11 @@ h2{
         position: absolute;
         margin-left: 38%;
         margin-right: auto;
-        top: 70%;
+        top: 80%;
         padding: 10px 25px;
-        background-color: #56d856;
+        background-color: #5eddac;
         border-radius: 10px;
-        box-shadow: 0 0 10px 2px;
+        box-shadow: 0 5px #999;
         cursor: pointer;
     }
 
@@ -162,7 +177,7 @@ h2{
         margin-left: 35%;
         top: 40%;
         padding: 15px 25px;
-        background-color: #56d856;
+        background-color: #5eddac;
         border-radius: 10px;
         box-shadow: 0 0 10px 2px;
     
@@ -172,7 +187,7 @@ h2{
 
 .t-scores{
     position: absolute;
-    margin-left: 32%;
+    margin-left: 20%;
     top: 40%;
     background-color: #f7a584;
     border-radius: 10px;
@@ -185,7 +200,7 @@ h2{
 }
 
 .next-button button:active{
-    background-color: #56d856;
+    background-color: #5eddac;
     box-shadow: 0 5px #fff;
     transform: translateY(4px);
 
@@ -193,12 +208,19 @@ h2{
 
 .restart{
     position: absolute;
-        margin-left: 40%;
+        margin-left: 32%;
         top: 70%;
         padding: 10px 25px;
-        background-color: #56d856;
+        background-color: #5eddac;
         border-radius: 10px;
         box-shadow: 0 0 10px 2px;
         cursor: pointer;
 
+}
+
+
+.restart:active{
+    background-color: #5eddac;
+    box-shadow: 0 5px #fff;
+    transform: translateY(4px);
 }
