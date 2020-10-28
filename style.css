@@ -185,7 +185,7 @@ div .t-scores{
 
 }
 
-.t-scores{
+div .t-scores{
     position: absolute;
     margin-left: 20%;
     top: 40%;
