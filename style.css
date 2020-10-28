@@ -79,10 +79,11 @@ h2{
     box-shadow: 0 5px #999;
 
 }
-div .t-scores{
+.t-scores h1{
     display: block;
     position: absolute;
-    margin-left: 26%;
+    /* margin-left: 26%; */
+    padding: 0 20px;
     top: 40%;
     background-color: #f7a584;
     border-radius: 10px;
@@ -90,10 +91,10 @@ div .t-scores{
 
 }
 
-.t-scores h1{
+/* .t-scores h1{
     color: black;
-    padding: 0 20px;
-}
+    
+} */
 
 .questions .btn:hover {
     background-color: powderblue;
@@ -185,7 +186,7 @@ div .t-scores{
 
 }
 
-div .t-scores{
+.t-scores h1{
     position: absolute;
     margin-left: 20%;
     top: 40%;
