@@ -58,9 +58,9 @@ h2{
     cursor: pointer;
 }
 
-.restart {
+.restart button{
     position: absolute;
-    margin-left: 80%;
+    margin-left: 85%;
     top: 85%;
     padding: 5px 5px;
     background-color: #5eddac;
@@ -79,22 +79,23 @@ h2{
     box-shadow: 0 5px #999;
 
 }
-.t-scores h1{
-    display: block;
-    position: absolute;
-    /* margin-left: 26%; */
-    padding: 0 20px;
-    top: 40%;
+.t-scores{
+    
+    position: relative;
+    margin-left: 15%;
+    margin-right: auto;
+    top: 20%;
     background-color: #f7a584;
     border-radius: 10px;
     box-shadow: 0 5px #999;
 
 }
 
-/* .t-scores h1{
+.t-scores h1{
     color: black;
+    padding: 0 20px;
     
-} */
+}
 
 .questions .btn:hover {
     background-color: powderblue;
@@ -186,7 +187,7 @@ h2{
 
 }
 
-.t-scores h1{
+.t-scores{
     position: absolute;
     margin-left: 20%;
     top: 40%;
@@ -200,6 +201,11 @@ h2{
     background-color: #b0e0e6;
 }
 
+.start-button button:active{
+    background-color: #5eddac;
+    box-shadow: 0 5px #fff;
+    transform: translateY(4px);
+}
 .next-button button:active{
     background-color: #5eddac;
     box-shadow: 0 5px #fff;
@@ -207,7 +213,7 @@ h2{
 
 }
 
-.restart{
+.restart button{
     position: absolute;
         margin-left: 32%;
         top: 70%;
@@ -220,7 +226,7 @@ h2{
 }
 
 
-.restart:active{
+.restart button:active{
     background-color: #5eddac;
     box-shadow: 0 5px #fff;
     transform: translateY(4px);
