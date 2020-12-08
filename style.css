@@ -27,7 +27,6 @@ h2{
 
 .question-counter{
     padding: 10px 0px;
-
 }
 
 .questions{
@@ -79,8 +78,7 @@ h2{
     box-shadow: 0 5px #999;
 
 }
-.t-scores{
-    
+.t-scores{  
     position: relative;
     margin-left: 15%;
     margin-right: auto;
@@ -88,19 +86,16 @@ h2{
     background-color: #f7a584;
     border-radius: 10px;
     box-shadow: 0 5px #999;
-
 }
 
 .t-scores h1{
     color: black;
-    padding: 0 20px;
-    
+    padding: 0 20px; 
 }
 
 .questions .btn:hover {
     background-color: powderblue;
 }
-
 
 .hide{
     display: none;
@@ -110,7 +105,6 @@ h2{
     background-color: #5eddac;
     box-shadow: 0 5px #fff;
     transform: translateY(4px);
-
 }
 
 @media (max-width:700px){
@@ -139,7 +133,6 @@ h2{
     }
     .question-counter{
         padding: 20px 0px;
-    
     }
 
     .questions{
@@ -182,9 +175,7 @@ h2{
         background-color: #5eddac;
         border-radius: 10px;
         box-shadow: 0 0 10px 2px;
-    
     }
-
 }
 
 .t-scores{
@@ -194,7 +185,6 @@ h2{
     background-color: #f7a584;
     border-radius: 10px;
     box-shadow: 0 5px #999;
-
 }
 
 .questions .btn:hover {
@@ -206,25 +196,23 @@ h2{
     box-shadow: 0 5px #fff;
     transform: translateY(4px);
 }
+
 .next-button button:active{
     background-color: #5eddac;
     box-shadow: 0 5px #fff;
     transform: translateY(4px);
-
 }
 
 .restart button{
     position: absolute;
-        margin-left: 32%;
-        top: 70%;
-        padding: 10px 25px;
-        background-color: #5eddac;
-        border-radius: 10px;
-        box-shadow: 0 0 10px 2px;
-        cursor: pointer;
-
+    margin-left: 32%;
+    top: 70%;
+    padding: 10px 25px;
+    background-color: #5eddac;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px;
+    cursor: pointer;
 }
-
 
 .restart button:active{
     background-color: #5eddac;

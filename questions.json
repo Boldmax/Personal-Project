@@ -1,0 +1,100 @@
+  [
+    {
+        "question": "In which view Headers and Footers are visible?",
+        "options": [
+        {"opt": "Normal View", "correct": false},
+        {"opt": "Page Layout View", "correct": false},
+        {"opt": "Print Layout View", "correct": true},
+        {"opt": "Draft View", "correct": false}
+        ]
+
+    },
+    {
+        "question": "Text-styling feature of MS word is:",
+        "options": [
+            {"opt": "WordColor", "correct": false},
+            {"opt": "WordFont", "correct":false},
+            {"opt": "WordArt", "correct": true},
+            {"opt": "WordFill", "correct": false}
+        ]
+        
+    },
+    {
+        "question": "Name of the screen that recognizes touch input is:",
+        "options": [
+            {"opt": "Recog screen", "correct": false},
+            {"opt": "Touch Screen", "correct":true},
+            {"opt": "Point Screen", "correct": false},
+            {"opt": "Android Screen", "correct": false}
+        ]
+        
+    },
+    {
+        "question": "Computer Monitor is also known as:",
+        "options": [
+            {"opt": "UVD", "correct": false},
+            {"opt": "CCTV" , "correct":false},
+            {"opt": "DVU", "correct": false},
+            {"opt": "VDU", "correct": true}
+        ]
+        
+    },
+    {
+        "question": "Eight Bits make up a:",
+        "options": [
+            {"opt": "Byte", "correct": true},
+            {"opt": "Megabyte", "correct":false},
+            {"opt": "Kilobyte" , "correct": false},
+            {"opt": "non", "correct": false}
+        ]
+        
+    },
+    {
+        "question": "Which one is the result of the output given by a computer? ",
+        "options": [
+            {"opt": "data", "correct": false},
+            {"opt": "information" , "correct":true},
+            {"opt": "instruction", "correct": false},
+            {"opt": "execution", "correct": false}
+        ]
+        
+    },
+    {
+        "question": "The printed output from a computer is called: ",
+        "options": [
+            {"opt": "Copy", "correct": false},
+            {"opt": "Soft copy", "correct":false},
+            {"opt": "WordArt", "correct": false},
+            {"opt": "Hard copy", "correct": true}
+        ]
+        
+    },
+    {
+        "question": "Which one of these also known as read/write memory? ",
+        "options": [
+            {"opt": "ROM", "correct": false},
+            {"opt": "RAM", "correct":true},
+            {"opt": "DVD", "correct": false},
+            {"opt": "Hard Disc", "correct": false}
+        ]
+        
+    },
+    {
+        "question": "The Process of erasing a disk is called: ",
+        "options": [
+            {"opt": "Wiping", "correct": false},
+            {"opt": "Formatting", "correct":true},
+            {"opt": "Cleaning", "correct": false},
+            {"opt": "Defragmentation", "correct": false}
+        ]    
+    },
+    {
+        "question": "Which one is not an Image file? ",
+        "options": [
+            {"opt": ".bmp", "correct": false},
+            {"opt": ".png", "correct":false},
+            {"opt": ".jpg", "correct": false},
+            {"opt": ".wmv" , "correct": true}
+        ]   
+    }
+]
